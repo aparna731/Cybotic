@@ -1556,6 +1556,10 @@ footer {
   margin: 0 30px;
   overflow: hidden;
 }
+.slide-container-event2 {
+  margin: 0 30px;
+  overflow: hidden;
+}
 
 .card-event {
   background:  #cad2c5;
@@ -1578,6 +1582,38 @@ footer {
 }
 
 .card-event .desc-btn {
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem;
+  display: block;
+  color: #EFEFEF;
+  background-color: green;
+  border-radius: .7rem;
+  font-weight: bold;
+  margin: 1rem auto;
+}
+.card-event1 {
+  background:  #cad2c5;
+  border-radius: 8px;
+  height: 300px;
+}
+
+.card-event1 .image-box-event {
+  /* height: 300px; */
+}
+
+.card-event1 .image-box-event img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-event1 .description {
+  text-align: center;
+  margin-block: .8rem;
+}
+
+.card-event1 .desc-btn {
   border: none;
   cursor: pointer;
   padding: 0.6rem;
